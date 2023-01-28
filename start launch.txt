@@ -1,0 +1,12 @@
+-novid -tickrate 128 -high -threads 6 +fps_max 0 +cl_interp 0 +cl_interp_ratio 1 +rate 128000 +cl_updaterate 128 +cl_cmdrate 128 +mat_queue_mode 2 -freq 144 -refresh 144 -d3d9ex -nojoy
+
+
+VIEWMODEL
+viewmodel_fov 68; viewmodel_offset_x 2.5; viewmodel_offset_y 2; viewmodel_offset_z -2; viewmodel_presetpos 0; cl_viewmodel_shift_left_amt 1.5; cl_viewmodel_shift_right_amt 0.75; viewmodel_recoil 0; cl_righthand 0;
+
+CL_BOB
+cl_bob_lower_amt 5; cl_bobamt_lat 0.4; cl_bobamt_vert 0.25; cl_bobcycle 0.98;
+
+
+144hz
+-novid -tickrate 128 +mat_disable_fancy_blending -forcenovsync +r_dynamic 0 -limitvsconst -high -threads 6 +fps_max 0 +cl_interp 0 +cl_interp_ratio 1 +rate 128000 +cl_updaterate 128 +cl_cmdrate 128 +mat_queue_mode 2 -freq 144 -refresh 144 -nod3d9ex -nojoy
